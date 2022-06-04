@@ -1,4 +1,3 @@
-![Icon](./assets/icons/logo-128x128.png)
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/icons/logo_wide@dark.png">
   <source media="(prefers-color-scheme: light)" srcset="./assets/icons/logo_wide.png">
