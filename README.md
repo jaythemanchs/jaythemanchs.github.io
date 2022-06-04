@@ -5,4 +5,9 @@
 </picture>
 
 # Server Manager For Minecraft
-Welcome to the official **Server Manager For Minecraft** GitHub Repository
+Welcome to the official **Server Manager For Minecraft** GitHub Repository 
+
+[![](https://github.com/github/choosealicense.com/workflows/Build%20and%20Test/badge.svg)](https://github.com/github/choosealicense.com/actions?query=workflow%3ABuild%20and%20Test)
+
+## Installation
+
