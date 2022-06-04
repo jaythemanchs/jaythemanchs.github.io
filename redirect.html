@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Redirecting...</title>
+    <style>
+        h1 {
+            margin-bottom: 0;
+        }
+
+        a {
+            color: -webkit-link;
+            cursor: pointer;
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: -webkit-activelink;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Redirecting</h1>
+    <p>If your browser does not work with JavaScript, <a href="https://jaythemanchs.github.io.">click here</a>.</p>
+    <script>
+        const h1 = document.getElementsByTagName('h1')[0]
+        const link = document.getElementsByTagName('a')[0]
+
+        setInterval(() => {
+            h1.innerText = h1.innerText.lastIndexOf('.') == 14 ? h1.innerText = 'Redirecting.' : h1.innerText.concat('.')
+        }, 250)
+
+        setTimeout(() => {
+            location.replace('https://jaythemanchs.github.io.')
+        }, 200)
+    </script>
+</body>
